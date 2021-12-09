@@ -1,0 +1,51 @@
+état Initial : 
+
+{ 2,3
+1,0 }
+#############################################
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+Recherche En Larger D abord
+ .........
+resultat : attend
+
+{ 1,0
+3,2 }
+
+{ 0,1
+3,2 }
+
+{ 3,1
+0,2 }
+
+{ 3,1
+2,0 }
+
+{ 3,0
+2,1 }
+
+{ 0,3
+2,1 }
+
+{ 2,3
+0,1 }
+
+{ 2,3
+1,0 }
+
+cout de recherche = 8
+noeud sauvegardé en mémoire = 10 
