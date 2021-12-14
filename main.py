@@ -3,16 +3,16 @@ from JeuTaquin import JeuTraquin
 from Noeud import Noeud
 
 
-arr = np.array([[7,2,4],[5,0,6],[8,1,3]])
+arr = np.array([[3,1,2],[4,5,0],[6,7,8]])
 arr2 = np.array([[2,3],[1,0]])
 # noeud = Noeud(arr,0,3)
 # print(arr)
 # print(noeud.movesPosssiples)
 
 
-jeu = JeuTraquin(2,arr2)
+jeu = JeuTraquin(3,arr)
 
-result = jeu.RechercheEnProfondeurDabord()
+result = jeu.RechercheEnLargerDabord()
 
 
 if(not result):
